@@ -51,7 +51,7 @@ hr {
   background-color: var(--bg);
   display: flex;
   flex-direction: column;
-  font-family: "Latin Modern Roman", "Times New Roman", serif;
+  font-family: Garamond, serif;
   min-height: 100vh;
   overflow-wrap: break-word;
   padding: 1rem $padding;
@@ -106,6 +106,10 @@ hr {
     max-width: $mobile-breakpoint;
     margin-top: 10px;
     width: 100%;
+
+    & > span {
+      margin: 0 0.1rem;
+    }
 
     & > span > a {
       font-size: 1.2rem;
