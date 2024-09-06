@@ -3,10 +3,10 @@
 #main {
   & > .post-group {
     & > ul {
-      border-left: var(--fg4) solid $border;
+      // border-left: var(--fg4) solid $border;
       list-style-type: none;
-      margin-left: 0.5rem;
-      padding-left: $margin;
+//      margin-left: 0.5rem;
+//      padding-left: $margin;
 
       & > li {
         align-items: center;
@@ -21,8 +21,8 @@
       }
 
       @media screen and (min-width: $mobile-breakpoint) {
-        margin-left: 1rem;
-        padding-left: 2rem;
+        // margin-left: 1rem;
+        // padding-left: 2rem;
       }
     }
 
